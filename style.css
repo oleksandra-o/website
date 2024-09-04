@@ -1,0 +1,279 @@
+
+
+body{
+  background-color: lightgray;
+}
+
+.navbar-toggler-icon{
+  margin-left: auto;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  
+}
+.nav-item{
+  margin-left: auto;
+  
+}
+.nav-link{
+  color:black;
+  text-shadow:2px 2px 2px #fafafa, 2px 2px 5px #ccc;
+
+}
+
+.bi-columns-gap{
+  font-size: 40px;
+  
+vertical-align: middle;
+}
+
+
+header{
+  background-image: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.8)),
+    url("img/backgraund.jpeg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   padding: 20%;
+   color: white;
+   background-attachment:fixed;
+  
+}
+
+
+
+
+
+.img-thumbnail{
+  width:30vh;
+  border-radius: 100%;
+  /*border-color: black;
+  filter: grayscale(80%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;*/
+  
+}
+
+.img-thumbnail:hover{
+  /*transform: scale(1.1); */
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+
+h1 {
+  text-shadow: 2px 2px black;
+  transition: all .2s ease-in-out;
+}
+h1:hover{
+  transform: scale(1.1);
+}
+h5 {
+  text-shadow: 2px 2px black;
+  transition: all .2s ease-in-out;
+}
+h5:hover{
+  transform: scaleY(1.2);
+}
+
+
+.card-img-top{
+  width: 100%;
+  object-fit: cover;
+ 
+}
+
+.mac{
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+  opacity: 0.6;
+  transition: 0.3s;
+  
+}
+.mac:hover {
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.card{
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #fafafa;
+  
+}
+
+section{
+  padding: 40px 0;
+
+}
+h2{
+  text-align: center;
+  text-shadow: 2px 2px #fafafa;
+  transition: all .2s ease-in-out;
+}
+h2:hover{
+  transform: scaleY(1.2);
+}
+
+
+
+.container div{
+  position: center;
+  margin: 0 auto;
+  background-color: gray;
+  color: #fafafa;
+  }
+.bi{
+  color:#fafafa;
+  
+}
+.bi:hover{
+  color: dimgray;
+ 
+}
+.icon{
+  color: #fafafa;
+  transition: all .2s ease-in-out;
+}
+.icon:hover{
+  transform: scale(1.2);
+  
+}
+h4{
+  color: gray;
+  text-shadow: 1px 1px #fafafa;
+  transition: all .2s ease-in-out;
+}
+h4:hover{
+  transform: scale(1.2);
+}
+
+footer{
+  border-top: 1px gray;
+}
+
+
+h6{
+  text-align: center;
+}
+
+
+
+/*form*/ 
+form#payment {
+   background-color: lightgrey;
+  
+}
+
+fieldset {
+   border: none;
+}
+
+legend {
+   background-color: grey;
+   color: whitesmoke;
+  text-shadow: 1px 1px black;
+  text-align: center;
+   font-size: 1.5em;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   padding: 8px;
+   width: 100%;
+}
+
+
+/* Input and Label Styles */
+
+label {
+   display: block;
+   float: left;
+   clear: left;
+   font-size: 0.9em;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   width: 180px;
+   text-align: right;
+}
+
+form#payment input, form#payment select {
+   display: block;
+   float: left;
+}
+
+
+
+
+
+
+/* Submit Button Styles */
+
+
+
+
+#button{
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+  color: whitesmoke;
+  background-color: darkgray;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+  text-shadow: 1px 1px grey;
+}
+#button:hover{
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+  color: grey;
+  text-shadow: 1px 1px whitesmoke;
+}
+
+h6{
+  font-weight: bold;
+}
+
+div.edu{
+  background-color: whitesmoke;
+  color: gray;
+}
+
+a.theme-t{
+  color: whitesmoke;
+}
+
+h3{
+  text-shadow: 2px 2px darkgrey;
+}
+h4{
+  text-align: center;
+}
+
+
+
+/*animation*/
+
+span {
+ opacity: 0.5;
+  color: grey;
+  /*text-shadow: 0.5px 0.5px black;*/
+  text-shadow:1px 1px 1px #fafafa, 1px 1px 1px #ccc;
+  font-size: 50px;
+  transition: all 6s ease;
+  transform: translateY(50px);
+  display: inline-block;
+}
+
+span.fade{
+  opacity: 1;
+  transform: translateY(0px);
+  color: whitesmoke;
+ text-shadow:1px 1px 1px #fafafa, 1px 1px 1px #ccc;
+}
